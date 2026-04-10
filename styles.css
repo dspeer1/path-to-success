@@ -314,3 +314,26 @@ section img {
 #why h2 {
   background-color: var(--pink);
 }
+
+#why ul {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 15px;
+}
+
+#why ul li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-radius: 10px;
+  background-color: var(--teal);
+}
+
+#why ul li:nth-child(2) {
+  background-color: lightgreen;
+}
+
+
+
+
