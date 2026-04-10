@@ -194,21 +194,24 @@ table {
 
 body {
     font-family: Inter;
+    background-color: var(--lavender);
     color: var(--dark-gray);
+    width: 450px;
+}
+
+img {
+  background-color: var(--white);
 }
 
 h1, h2 {
     font-family: Kavoon;
-    color: var(--white);
     background-color: var(--purple);
+    color: var(--white);
 }
 
 h1 {
+    text-align: center;
     font-size: 3em;
-}
-
-nav h2 {
-    font-size: 1.5em;
 }
 
 h2 {
@@ -217,8 +220,58 @@ h2 {
 
 h3 {
     font-size: 1.5em;
+    color: var(--yellow);
 }
 
 h4 {
     font-size: 1.15em;
+    color: var(--purple);
+    background-color: var(--white);
+}
+
+h4 > p {
+  background-color: var(--white);
+}
+
+header p {
+  text-align: center;
+  background-color: var(--purple);
+  color: var(--white);
+}
+
+header nav {
+  background-color: var(--yellow);
+  text-transform: uppercase;
+}
+
+nav h2 {
+    text-align: center;
+    font-family: Inter;
+    font-size: 1.5em;
+    background-color: var(--yellow);
+    color: var(--dark-gray);
+}
+
+nav ul a {
+  display: block;
+  background-color: var(--white);
+  color: var(--purple);
+  text-decoration: none;
+}
+
+nav ul li {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+#services, #pricing {
+  background-color: var(--purple);
+}
+
+#why, #contact {
+  background-color: var(--pink);
+}
+
+h3 > section {
+  background-color: var(--white);
 }
