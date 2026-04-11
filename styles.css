@@ -181,22 +181,22 @@ table {
 /* ROOT VARIABLES */
 
 :root {
-    --teal: #4ca7c0;
-    --purple: #484fb7;
-    --lavender: #6b8fe7;
-    --yellow: #e9bb57;
-    --pink: #d9526f;
-    --dark-gray: #1e1e1e;
-    --white: #ffffff;
+  --teal: #4ca7c0;
+  --purple: #484fb7;
+  --lavender: #6b8fe7;
+  --yellow: #e9bb57;
+  --pink: #d9526f;
+  --dark-gray: #1e1e1e;
+  --white: #ffffff;
 }
 
 /* GLOBAL STYLES (mobile first/small) */
 
 body {
-    font-family: Inter;
-    background-color: var(--lavender);
-    color: var(--dark-gray);
-    width: 450px;
+  font-family: Inter;
+  background-color: var(--lavender);
+  color: var(--dark-gray);
+  width: 450px;
 }
 
 img {
@@ -204,19 +204,19 @@ img {
 }
 
 h1, h2 {
-    font-family: Kavoon;
-    background-color: var(--purple);
-    color: var(--white);
+  font-family: Kavoon;
+  background-color: var(--purple);
+  color: var(--white);
 }
 
 h1 {
-    text-align: center;
-    font-size: 3em;
-    padding-top: 40px;
+  text-align: center;
+  font-size: 3em;
+  padding-top: 40px;
 }
 
 h2 {
-    font-size: 2em;
+  font-size: 2em;
 }
 
 main h2 {
@@ -224,10 +224,10 @@ main h2 {
 }
 
 h3 {
-    font-size: 1.5em;
-    font-weight: bold;
-    color: var(--yellow);
-    padding-left: 10px;
+  font-size: 1.5em;
+  font-weight: bold;
+  color: var(--yellow);
+  padding-left: 10px;
 }
 
 main h3 {
@@ -235,10 +235,10 @@ main h3 {
 }
 
 h4 {
-    font-size: 1.15em;
-    font-weight: bold;
-    color: var(--purple);
-    background-color: var(--white);
+  font-size: 1.15em;
+  font-weight: bold;
+  color: var(--purple);
+  background-color: var(--white);
 }
 
 h4 > p {
@@ -270,12 +270,12 @@ header nav {
 }
 
 nav h2 {
-    text-align: center;
-    font-family: Inter;
-    font-size: 1.5em;
-    font-style: italic;
-    background-color: var(--yellow);
-    color: var(--dark-gray);
+  text-align: center;
+  font-family: Inter;
+  font-size: 1.5em;
+  font-style: italic;
+  background-color: var(--yellow);
+  color: var(--dark-gray);
 }
 
 nav ul a {
@@ -337,7 +337,6 @@ section img {
 #contact p {
   color: var(--white);
   font-weight: 400;
-  padding-top: -10px;
   padding-left: 10px;
   padding-right: 15px;
   text-align: left;
@@ -377,9 +376,9 @@ section img {
 }
 
 table {
-    margin: auto;
-    text-align: center;
-    margin-bottom: 10px;
+  margin: auto;
+  text-align: center;
+  margin-bottom: 10px;
 }
 
 th {
@@ -421,7 +420,6 @@ footer {
 }
 
 footer a {
-  align-content: right;
   color: var(--white);
   margin-left: 100px;
 }
