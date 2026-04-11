@@ -230,6 +230,10 @@ h3 {
     padding-left: 10px;
 }
 
+main h3 {
+  padding-bottom: 10px;
+}
+
 h4 {
     font-size: 1.15em;
     font-weight: bold;
@@ -243,6 +247,7 @@ h4 > p {
 
 p {
   line-height: 1.5;
+  font-weight: 600;
 }
 
 header p {
@@ -293,6 +298,15 @@ nav ul li {
   background-color: var(--purple);
 }
 
+#pricing {
+  margin-top: -10px;
+  margin-bottom: -10px;
+}
+
+#services {
+  margin-bottom: -15px;
+}
+
 #why, #contact {
   background-color: var(--pink);
 }
@@ -303,8 +317,8 @@ h3 ~ section {
   display: flex;
   flex-direction: column;
   gap: 10px;
-  margin: 20px;
   border-radius: 10px;
+  margin: 10px 20px 15px 20px;
 }
 
 section img {
@@ -313,27 +327,101 @@ section img {
 
 #why h2 {
   background-color: var(--pink);
+  margin: auto;
+}
+
+#contact h2 {
+  background-color: var(--pink);
+}
+
+#contact p {
+  color: var(--white);
+  font-weight: 400;
+  padding-top: -10px;
+  padding-left: 10px;
+  padding-right: 15px;
+  text-align: left;
 }
 
 #why ul {
   display: grid;
   grid-template-columns: auto auto;
   gap: 15px;
+  margin: 10px;
+  padding-bottom: 10px;
 }
 
 #why ul li {
   display: flex;
+  flex: 1;
   justify-content: center;
   align-items: center;
   text-align: center;
+  font-weight: bold;
   border-radius: 10px;
   background-color: var(--teal);
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 #why ul li:nth-child(2) {
-  background-color: lightgreen;
+  background-color: var(--lavender)
 }
 
+#why ul li:nth-child(3) {
+  background-color: var(--yellow);
+}
 
+#why ul li:nth-child(4) {
+  background-color: var(--white);
+}
 
+table {
+    margin: auto;
+    text-align: center;
+    margin-bottom: 10px;
+}
 
+th {
+  background-color: var(--yellow);
+  font-weight: bold;
+}
+
+td {
+  background-color: var(--white);
+}
+
+th, td {
+  border: 1px solid var(--yellow);
+  padding: 10px 15px;
+}
+
+#contact a {
+  display: flex;
+  background-color: var(--white);
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  text-decoration: none;
+  color: var(--dark-gray);
+  box-shadow: 20px 12px 15px -10px rgba(0, 0, 0, 1.00);
+  border-radius: 21px;
+  padding: 20px;
+  margin: 10px 50px 10px 50px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+footer {
+  display: flex;
+  background-color: var(--purple);
+  margin-top: -10px;
+  padding: 40px;
+  color: var(--white);
+}
+
+footer a {
+  align-content: right;
+  color: var(--white);
+  margin-left: 100px;
+}
